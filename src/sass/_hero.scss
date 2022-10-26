@@ -1,0 +1,60 @@
+// Колір в hero задав тимчасово, щоб бачити контур секції
+.hero{
+    background-color: whitesmoke;
+}
+
+.hero .container {
+    display: flex;
+    padding: 14px 14px 14px 0;
+    
+}
+
+.blok__hero{
+    margin-top: 159px;
+}
+
+.hero__title{
+    
+    margin-bottom: 28px;
+    max-width: 500px;
+
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #2C2C2C;
+}
+
+.hero__text{
+    margin-bottom: 40px;
+    max-width: 500px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2C2C2C;
+}
+
+.hero__btn{
+    padding: 6px 18px;
+
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: right;
+    color: #2C2C2C;
+    background-color: #BBF330;
+    border-radius: 30px;
+    border: none;
+}
+
+.hero__img{
+    margin-left: auto;
+   
+    border: 26px solid #FFE550;;
+    border-radius: 50%;
+ 
+}
+
+// *{
+// outline: 1px solid tomato;
+// }
